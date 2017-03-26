@@ -1,8 +1,8 @@
 'use strict'
 
-const env         = process.env.NODE_ENV || 'development';
-const DEV         = env==='development';
-const dotenv      = (DEV) ? require('dotenv').config() : undefined;
+// const env         = process.env.NODE_ENV || 'development';
+// const DEV         = env==='development';
+// const dotenv      = (DEV) ? require('dotenv').config() : undefined;
 
 
 const express    =  require('express');
